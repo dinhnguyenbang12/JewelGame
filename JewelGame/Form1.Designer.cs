@@ -1,4 +1,4 @@
-﻿namespace Project_JewelGame
+﻿namespace JewelGame
 {
     partial class Form1
     {
@@ -28,36 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_point = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // textBox_point
-            // 
-            this.textBox_point.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox_point.AutoSize = true;
-            this.textBox_point.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_point.Location = new System.Drawing.Point(905, 119);
-            this.textBox_point.Name = "textBox_point";
-            this.textBox_point.Size = new System.Drawing.Size(42, 46);
-            this.textBox_point.TabIndex = 0;
-            this.textBox_point.Text = "0";
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(959, 719);
-            this.Controls.Add(this.textBox_point);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.Label textBox_point;
     }
 }
-
